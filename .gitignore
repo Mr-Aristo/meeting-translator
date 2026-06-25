@@ -1,0 +1,13 @@
+# Python virtual environment (huge, machine-specific)
+.venv/
+
+# Local whisper model cache (multi-GB binaries — not for git)
+.models/
+
+# Generated meeting outputs (may contain private/internal content)
+docs/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
